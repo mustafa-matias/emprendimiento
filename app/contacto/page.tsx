@@ -19,7 +19,7 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 
 export default function ContactoPage() {
   const handleWhatsApp = () => {
-    const message = "Hola! Me comunico comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
+    const message = "Hola! Me comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
     const phoneNumber = "+5491133268005"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")

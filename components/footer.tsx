@@ -15,7 +15,7 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 
 export default function Footer() {
   const handleWhatsApp = () => {
-    const message = "Hola! Me interesa hacer una reserva en Villa Elisa. ¿Podrían darme más información?"
+    const message = "Hola! Me comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
     const phoneNumber = "+5491133268005"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
