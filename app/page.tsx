@@ -199,7 +199,7 @@ export default function HomePage() {
                 </Link>
                 <Link href="/la-ciudad">
                   <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-                    Explorar la Ciudad
+                    La Ciudad
                   </div>
                 </Link>
                 <Link href="/atracciones">
@@ -209,7 +209,7 @@ export default function HomePage() {
                 </Link>
                 <Link href="/contacto">
                   <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-                    Contactar
+                    Contacto
                   </div>
                 </Link>
               </div>
