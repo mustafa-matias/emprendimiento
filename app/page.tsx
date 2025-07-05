@@ -12,11 +12,11 @@ const ImageCarousel = () => {
 
   const images = useMemo(
     () => [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&h=500&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&h=500&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=700&h=500&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&h=500&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=700&h=500&fit=crop&q=80",
+      "/images/1.jpeg",
+      "/images/2.jpeg",
+      "/images/3.jpg",
+      "/images/4.jpeg",
+      "/images/5.jpeg",
     ],
     [],
   )
@@ -195,9 +195,9 @@ export default function HomePage() {
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
       {[
-        { label: 'Fotos', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
-        { label: 'La Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
-        { label: 'Atracciones', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
+        { label: 'Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
+        { label: 'Descubre la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
+        { label: 'Atracciones Cercanas', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
         { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }
       ].map((item, index) => (
         <Link key={index} href={item.href}>

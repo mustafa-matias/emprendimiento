@@ -11,7 +11,7 @@ export default function Navigation() {
 
   const navItems = [
     { href: "/", label: "INICIO" },
-    { href: "/fotos", label: "FOTOS" },
+    { href: "/fotos", label: "GALERIA" },
     { href: "/la-ciudad", label: "LA CIUDAD" },
     { href: "/atracciones", label: "ATRACCIONES" },
     { href: "/contacto", label: "CONTACTO" },

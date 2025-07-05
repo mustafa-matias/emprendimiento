@@ -79,7 +79,7 @@ export default function AtraccionesPage() {
         <div className="text-center mb-6 md:mb-8">
           <div className="relative inline-block">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#8b6f47] mb-4 relative">
-              Atracciones
+              Atracciones Cercanas
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#a0845c] to-[#8b6f47] rounded-full"></div>
             </h1>
           </div>

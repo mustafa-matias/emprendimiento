@@ -11,38 +11,38 @@ export default function FotosPage() {
   const photos = useMemo(
     () => [
       {
-        src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop&q=80",
-        alt: "Living principal",
+        src: "/images/1.jpeg",
+        alt: "Entrada",
         span: "md:col-span-2 md:row-span-2",
       },
       {
-        src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop&q=80",
-        alt: "Sala de estar",
+        src: "/images/7.jpeg",
+        alt: "Garage",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400&h=300&fit=crop&q=80",
-        alt: "Dormitorio principal",
+        src: "/images/9.jpeg",
+        alt: "Cocina",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400&h=300&fit=crop&q=80",
-        alt: "Cocina moderna",
+        src: "/images/4.jpeg",
+        alt: "Dormitorio",
         span: "md:row-span-2",
       },
       {
-        src: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&h=300&fit=crop&q=80",
-        alt: "Baño completo",
+        src: "/images/8.jpeg",
+        alt: "Living",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&h=300&fit=crop&q=80",
-        alt: "Patio exterior",
+        src: "/images/8.jpeg",
+        alt: "Living",
         span: "md:col-span-2",
       },
       {
-        src: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&h=300&fit=crop&q=80",
-        alt: "Dormitorio secundario",
+        src: "/images/3.jpg",
+        alt: "Patio Descubierto",
         span: "",
       },
       {
