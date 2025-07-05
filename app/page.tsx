@@ -193,31 +193,27 @@ export default function HomePage() {
       Descubre todo lo que Villa Elisa tiene para ofrecerte
     </p>
 
-    {/*  🔽 2 cols por defecto — 4 cols en md+  */}
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4 place-items-center">
-      <Link href="/fotos">
-        <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#8b6f47] hover:bg-[#6d5635] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-          Fotos
-        </div>
-      </Link>
-
-      <Link href="/la-ciudad">
-        <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-          Nuestra Ciudad
-        </div>
-      </Link>
-
-      <Link href="/atracciones">
-        <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#8b6f47] hover:bg-[#6d5635] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-          Atracciones Cercanas
-        </div>
-      </Link>
-
-      <Link href="/contacto">
-        <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
-          Contacto
-        </div>
-      </Link>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
+      {[
+        { label: 'Fotos', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
+        { label: 'La Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
+        { label: 'Atracciones', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
+        { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }
+      ].map((item, index) => (
+        <Link key={index} href={item.href}>
+          <div
+            className="w-full text-center px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full"
+            style={{
+              backgroundColor: item.bg,
+              transition: 'background-color 0.3s',
+            }}
+            onMouseOver={e => e.currentTarget.style.backgroundColor = item.hover}
+            onMouseOut={e => e.currentTarget.style.backgroundColor = item.bg}
+          >
+            {item.label}
+          </div>
+        </Link>
+      ))}
     </div>
   </div>
 </div>
