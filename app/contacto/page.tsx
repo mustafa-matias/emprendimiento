@@ -96,7 +96,7 @@ export default function ContactoPage() {
               <div className="space-y-2 md:space-y-3 villa-text-muted text-xs md:text-sm">
                 <div className="flex items-center justify-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+54 9 11 1234-5678</span>
+                  <span>+54 9 11 3326-8005</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <InstagramIcon className="w-4 h-4" />
