@@ -1,0 +1,222 @@
+"use client"
+
+import { useState, useEffect, useRef, useCallback, useMemo } from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Wifi, Snowflake, Car, Users, Home, Tv, Dog, MapPin } from "lucide-react"
+import Link from "next/link"
+import WhatsAppFloat from "@/components/whatsapp-float"
+import LazyImage from "@/components/lazy-image"
+
+const ImageCarousel = () => {
+  const [currentImage, setCurrentImage] = useState(0)
+
+  const images = useMemo(
+    () => [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=700&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&h=500&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=700&h=500&fit=crop&q=80",
+    ],
+    [],
+  )
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length)
+    }, 2500)
+    return () => clearInterval(interval)
+  }, [images.length])
+
+  const handleDotClick = useCallback((index: number) => {
+    setCurrentImage(index)
+  }, [])
+
+  return (
+    <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+      <LazyImage
+        src={images[currentImage]}
+        alt="Interior del alojamiento"
+        className="w-full h-[300px] md:h-[400px] lg:h-[500px] transition-opacity duration-1000"
+      />
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => handleDotClick(index)}
+            className={`w-2 h-2 rounded-full transition-colors ${index === currentImage ? "bg-white" : "bg-white/50"}`}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default function HomePage() {
+  const amenitiesRef = useRef<HTMLDivElement>(null)
+
+  const amenities = useMemo(
+    () => [
+      {
+        icon: Users,
+        label: "2 AMBIENTES",
+        description: "Cómodo dos ambiente, habitación con aire. En el living se encuentra un futón-cama.",
+      },
+      {
+        icon: MapPin,
+        label: "ZONA CÉNTRICA",
+        description: "Ubicado a 4 cuadras del centro de la Ciudad tranquila, próxima y linda.",
+      },
+      { icon: Car, label: "GARAGE", description: "Garage Semi Cubierto a la entrada de la propiedad" },
+      { icon: Home, label: "PATIO", description: "Espacio exterior privado para relajarse y disfrutar del aire libre" },
+      { icon: Wifi, label: "WIFI", description: "Internet de alta velocidad disponible en todo el alojamiento" },
+      {
+        icon: Snowflake,
+        label: "AIRE FRÍO/CALOR",
+        description: "Sistema de climatización para tu comodidad durante todo el año",
+      },
+      {
+        icon: Tv,
+        label: "TV/NETFLIX",
+        description: "Televisión con acceso a Netflix y otras plataformas de streaming",
+      },
+      { icon: Dog, label: "APTO MASCOTAS", description: "Tu mascota es bienvenida en nuestro alojamiento" },
+    ],
+    [],
+  )
+
+  const heroIcons = useMemo(
+    () => [
+      { icon: Users, label: "2 AMBIENTES" },
+      { icon: Car, label: "GARAGE" },
+      { icon: Home, label: "PATIO" },
+      { icon: Wifi, label: "WIFI" },
+      { icon: Snowflake, label: "AIRE FRÍO/CALOR" },
+      { icon: Tv, label: "TV/NETFLIX" },
+      { icon: Dog, label: "APTO MASCOTAS" },
+    ],
+    [],
+  )
+
+  const scrollToAmenity = useCallback((label: string) => {
+    if (amenitiesRef.current) {
+      amenitiesRef.current.scrollIntoView({ behavior: "smooth" })
+      setTimeout(() => {
+        const targetCard = document.querySelector(`[data-amenity="${label}"]`)
+        if (targetCard) {
+          targetCard.classList.add("ring-2", "ring-[#8b6f47]", "ring-opacity-50")
+          setTimeout(() => {
+            targetCard.classList.remove("ring-2", "ring-[#8b6f47]", "ring-opacity-50")
+          }, 2000)
+        }
+      }, 500)
+    }
+  }, [])
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-[#f7f3ed] via-[#ede4d3] to-[#e8dcc6] pt-4 md:pt-6 pb-1">
+      <WhatsAppFloat />
+
+      <section className="py-2 px-2 md:px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="relative mb-4 md:mb-8 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="grid lg:grid-cols-2 gap-0 items-center min-h-[400px] md:min-h-[500px] lg:min-h-[600px]">
+              <div className="order-2 lg:order-1 relative">
+                <ImageCarousel />
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#f7f3ed]/20 to-[#f7f3ed]/60 lg:to-[#f7f3ed]/80"></div>
+              </div>
+
+              <div className="order-1 lg:order-2 relative z-10 p-4 md:p-6 lg:p-8 xl:p-12 bg-gradient-to-l from-[#f7f3ed]/95 via-[#ede4d3]/90 to-transparent lg:bg-gradient-to-r lg:from-[#f7f3ed]/95 lg:via-[#ede4d3]/90 lg:to-transparent">
+                <div className="space-y-4 md:space-y-6 lg:space-y-8">
+                  <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light text-[#8b6f47] leading-tight">
+                    Mereces un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
+                  </h1>
+                  <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
+                    Alquiler 2 ambiente para 2 / 3 personas en el centro de esta hermosa ciudad entrerriana
+                  </p>
+
+                  <div className="flex flex-wrap gap-2 md:gap-3 lg:gap-4 py-4">
+                    {heroIcons.map((item, index) => {
+                      const Icon = item.icon
+                      return (
+                        <button
+                          key={index}
+                          onClick={() => scrollToAmenity(item.label)}
+                          className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-[#8b6f47]/10 rounded-full flex items-center justify-center hover:bg-[#8b6f47]/20 transition-all duration-300 hover:scale-110 cursor-pointer"
+                        >
+                          <Icon className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 text-[#8b6f47]" />
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            ref={amenitiesRef}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-4 lg:gap-6 mb-4 md:mb-8"
+          >
+            {amenities.map((amenity, index) => {
+              const Icon = amenity.icon
+              return (
+                <Card
+                  key={amenity.label}
+                  data-amenity={amenity.label}
+                  className="bg-white/70 backdrop-blur-sm border-[#d4c4a8]/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-2 group overflow-hidden"
+                  style={{
+                    animationDelay: `${index * 100}ms`,
+                  }}
+                >
+                  <CardContent className="p-3 md:p-4 lg:p-6 text-center">
+                    <div className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-gradient-to-br from-[#a0845c] to-[#8b6f47] rounded-full flex items-center justify-center mx-auto mb-2 md:mb-3 lg:mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <Icon className="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 text-white" />
+                    </div>
+                    <h3 className="font-semibold text-[#8b6f47] mb-1 md:mb-2 lg:mb-3 text-sm md:text-base lg:text-lg">
+                      {amenity.label}
+                    </h3>
+                    <p className="text-[#8b6f47]/70 text-xs md:text-sm leading-relaxed">{amenity.description}</p>
+                  </CardContent>
+                </Card>
+              )
+            })}
+          </div>
+
+          <div className="text-center">
+            <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-xl border border-[#d4c4a8]/50">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-light text-[#8b6f47] mb-2 md:mb-3 lg:mb-4">
+                ¿Listo para tu escapada perfecta?
+              </h2>
+              <p className="text-[#8b6f47]/80 mb-3 md:mb-4 lg:mb-6 text-sm md:text-base lg:text-lg">
+                Descubre todo lo que Villa Elisa tiene para ofrecerte
+              </p>
+              <div className="flex flex-wrap justify-center gap-2 md:gap-3 lg:gap-4">
+                <Link href="/fotos">
+                  <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#8b6f47] hover:bg-[#6d5635] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
+                    Ver Fotos
+                  </div>
+                </Link>
+                <Link href="/la-ciudad">
+                  <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
+                    Explorar la Ciudad
+                  </div>
+                </Link>
+                <Link href="/atracciones">
+                  <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#8b6f47] hover:bg-[#6d5635] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
+                    Ver Atracciones
+                  </div>
+                </Link>
+                <Link href="/contacto">
+                  <div className="px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 bg-[#a0845c] hover:bg-[#8b6f47] text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full">
+                    Contactar
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
