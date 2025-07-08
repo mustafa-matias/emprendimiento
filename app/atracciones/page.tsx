@@ -9,65 +9,41 @@ export default function AtraccionesPage() {
   const attractions = useMemo(
     () => [
       {
-        title: "Termas de Villa Elisa",
-        description: "Complejo termal con piscinas de agua caliente, spa y servicios de relajación",
-        image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=300&fit=crop&q=80",
+        title: "Palacio San José (Caseros)",
+        description: "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
+        image: "/images/palacio.jpg",
       },
       {
         title: "Parque Nacional El Palmar",
-        description: "A 45 min. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&q=80",
+        description: "A 45 minutos. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna. Una experiencia natural única.",
+        image: "/images/palmar.jpg",
       },
       {
         title: "Colón y sus Playas",
-        description: "A 20 min. Playas de arena sobre el río Uruguay, balnearios y deportes acuáticos",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop&q=80",
+        description: "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
+        image: "/images/colon.jpeg",
       },
       {
         title: "Represa Salto Grande",
-        description: "A 30 min. Impresionante obra de ingeniería binacional Argentina-Uruguay",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Pesca en el Río Uruguay",
-        description: "Pesca deportiva de dorado, surubí y otras especies en el río Uruguay",
-        image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Concordia Centro",
-        description: "A 25 min. Ciudad puerto con arquitectura histórica, museos y gastronomía",
-        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop&q=80",
+        description: "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
+        image: "/images/represa.jpeg",
       },
       {
         title: "Castillo San Carlos",
-        description: "A 35 min. Histórico castillo con museo y hermosos jardines en Concordia",
-        image: "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Termas de Concordia",
-        description: "A 25 min. Complejo termal con piscinas, spa y centro de convenciones",
-        image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=300&fit=crop&q=80",
+        description: "A 35 min. Histórico castillo con museo y hermosos jardines en Concordia.",
+        image: "/images/palacio.jpg",
       },
       {
         title: "Pueblo Liebig",
-        description: "A 40 min. Pueblo histórico con museo del frigorífico y arquitectura inglesa",
-        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop&q=80",
+        description: "A 40 minutos. Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
+        image: "/images/liebig.jpg",
       },
-      {
-        title: "Avistaje de Aves",
-        description: "Observación de más de 200 especies en humedales y bosques ribereños",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&q=80",
+            {
+        title: "Cristo de la Hermandad – Ruta 130",
+        description: "Escultura de 20 metros tallada en un tronco de árbol caído. Impactante símbolo de fe junto a la ruta.",
+        image: "/images/cristo.jpeg",
       },
-      {
-        title: "Turismo Rural",
-        description: "Visitas a estancias, cabalgatas y experiencias de vida rural entrerriana",
-        image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Ruta del Citrus",
-        description: "Recorrido por plantaciones de cítricos con degustaciones y venta directa",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
-      },
+
     ],
     [],
   )
@@ -84,8 +60,7 @@ export default function AtraccionesPage() {
             </h1>
           </div>
           <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-4xl mx-auto leading-relaxed">
-            Descubre las atracciones de Entre Ríos cerca de Villa Elisa. Desde termas relajantes hasta aventuras en la
-            naturaleza.
+            Descubrí las atracciones que rodean Villa Elisa, ideales para disfrutar en una escapada de ida y vuelta en el mismo día.
           </p>
         </div>
 

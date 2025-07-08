@@ -136,7 +136,7 @@ export default function FotosPage() {
             </h1>
           </div>
           <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-3xl mx-auto">
-            Descubre cada rincón de nuestro acogedor alojamiento en Villa Elisa
+            Descubrí cada rincón de nuestro acogedor alojamiento en Villa Elisa a través de estas imágenes.
           </p>
         </div>
 

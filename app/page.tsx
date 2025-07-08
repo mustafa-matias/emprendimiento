@@ -60,27 +60,27 @@ export default function HomePage() {
       {
         icon: Users,
         label: "2 AMBIENTES",
-        description: "Cómodo dos ambiente, habitación con aire. En el living se encuentra un futón-cama.",
+        description: "Habitación principal con cama matrimonial. Living-comedor con futón/cama para una tercera persona. Cocina completa. Patio descubierto.",
       },
       {
         icon: MapPin,
         label: "ZONA CÉNTRICA",
-        description: "Ubicado a 4 cuadras del centro de la Ciudad tranquila, próxima y linda.",
+        description: "A solo 4 cuadras del tranquilo centro de la ciudad. Podrás recorrer caminando los distintos puntos gastronómicos y las principales atracciones.",
       },
-      { icon: Car, label: "GARAGE", description: "Garage Semi Cubierto a la entrada de la propiedad" },
-      { icon: Home, label: "PATIO", description: "Espacio exterior privado para relajarse y disfrutar del aire libre" },
-      { icon: Wifi, label: "WIFI", description: "Internet de alta velocidad disponible en todo el alojamiento" },
+      { icon: Car, label: "GARAGE", description: "Garage Semi Cubierto a la entrada del alojamiento." },
+      { icon: Home, label: "PATIO", description: "Espacio exterior privado para relajarse y disfrutar del aire libre con vista a una parra de uvas." },
+      { icon: Wifi, label: "WIFI", description: "Internet disponible en todo el alojamiento" },
       {
         icon: Snowflake,
         label: "AIRE FRÍO/CALOR",
-        description: "Sistema de climatización para tu comodidad durante todo el año",
+        description: "Aire acondicionado frío/calor y ventilador en habitación. Estufa y ventilador en living-comedor.",
       },
       {
         icon: Tv,
-        label: "TV/NETFLIX",
-        description: "Televisión con acceso a Netflix y otras plataformas de streaming",
+        label: "TV",
+        description: "Televisión en el living-comedor",
       },
-      { icon: Dog, label: "APTO MASCOTAS", description: "Tu mascota es bienvenida en nuestro alojamiento" },
+      { icon: Dog, label: "PET FRIENDLY", description: "Apto 🐾 Servicio de Guardería opcional" },
     ],
     [],
   )
@@ -132,7 +132,7 @@ export default function HomePage() {
       Mereces un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
     </h1>
     <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-      Alquiler 2 ambiente para 2 / 3 personas en el centro de esta hermosa ciudad entrerriana
+      Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado y apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
     </p>
 
     <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 lg:gap-4 py-4">
@@ -190,12 +190,12 @@ export default function HomePage() {
     </h2>
 
     <p className="text-[#8b6f47]/80 mb-3 md:mb-4 lg:mb-6 text-sm md:text-base lg:text-lg">
-      Descubre todo lo que Villa Elisa tiene para ofrecerte
+      Descubrí todo lo que Villa Elisa tiene para ofrecerte.
     </p>
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
       {[
-        { label: 'Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
+        { label: 'La Casita - Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
         { label: 'Descubre la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
         { label: 'Atracciones Cercanas', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
         { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }

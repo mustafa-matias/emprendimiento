@@ -33,7 +33,7 @@ export default function WhatsAppFloat() {
 
   const handleWhatsApp = () => {
     const message = "Hola! Me comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
-    const phoneNumber = "+5491133268005"
+    const phoneNumber = "+5493447560251"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }

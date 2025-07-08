@@ -9,64 +9,44 @@ export default function LaCiudadPage() {
   const cityFeatures = useMemo(
     () => [
       {
-        title: "Paseo por el Centro Histórico",
-        description: "Recorre las calles arboladas del centro con arquitectura de principios del siglo XX",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&q=80",
+        title: "Complejo Termal - Villa Elisa",
+        description: "Aguas termales saladas de fuerte mineralización. Diez piscinas con distintas temperaturas (cubiertas y al aire libre).También cuenta con lago, playa, golf, gastronomía, áreas deportivas y recreativas.",
+        image: "/images/termas1.jpg",
       },
       {
-        title: "Plaza San Martín",
-        description: "Disfruta de la plaza principal con sus jardines y espacios para relajarse",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
+        title: "Monumento al Sembrador",
+        description: "Homenaje a los agricultores que contribuyeron al crecimiento de la ciudad. Es la postal más representativa de Villa Elisa.",
+        image: "/images/monumento.jpg",
       },
       {
-        title: "Cicloturismo Urbano",
-        description: "Recorre Villa Elisa en bicicleta por sus tranquilas calles y avenidas",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&q=80",
+        title: "Balneario 'El Rocha'",
+        description: "Arroyo de aguas de vertiente rodeado de un hermoso entorno natural. Playas de arena, camping, parrillas y juegos infantiles.",
+        image: "/images/rocha.jpg",
       },
       {
-        title: "Cafeterías y Confiterías",
-        description: "Visita las tradicionales confiterías del centro para un café y facturas",
-        image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=300&fit=crop&q=80",
+        title: "Iglesia Virgen Niña",
+        description: "De estilo neogótico, su arquitectura embellece el centro de la ciudad.",
+        image: "/images/iglesia.jpg",
       },
       {
-        title: "Iglesia San José",
-        description: "Conoce la iglesia parroquial y su arquitectura característica de la región",
-        image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop&q=80",
+        title: "Estancia Museo El Porvenir",
+        description: "Antigua casona colonial de 1885 convertida en museo regional. Exhibe objetos de inmigrantes, carruajes, autos antiguos y jardines con mirador.",
+        image: "/images/museo.jpg",
       },
       {
-        title: "Fotografía de Paisajes",
-        description: "Captura la belleza de los atardeceres y paisajes rurales circundantes",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
+        title: "Biciturismo",
+        description: "Circuitos urbanos y rurales, guiados o autoguiados, para descubrir paisajes campestres y la ciudad de forma saludable.",
+        image: "/images/bici.jpg",
       },
       {
-        title: "Festival de la Primavera",
-        description: "Participa del festival anual con música, danzas y tradiciones locales",
-        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop&q=80",
+        title: "Tren Histórico",
+        description: "Viaje en formación ferroviaria antigua por 3–36 km hasta Caseros, pasando por estaciones, con opción de conexión al Palacio San José.",
+        image: "/images/tren.jpeg",
       },
       {
-        title: "Biblioteca Popular",
-        description: "Visita la biblioteca y conoce la historia local a través de sus archivos",
-        image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Caminatas Matutinas",
-        description: "Disfruta de caminatas al amanecer por los barrios residenciales",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Parque Municipal",
-        description: "Relájate en el parque con juegos, espacios verdes y aire puro",
-        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Observación Nocturna",
-        description: "Contempla las estrellas desde los espacios abiertos sin contaminación lumínica",
-        image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=300&fit=crop&q=80",
-      },
-      {
-        title: "Mercado Local",
-        description: "Conoce el mercado y compra productos regionales y artesanías locales",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&q=80",
+        title: "Feria y Tiendas Regionales",
+        description: "Variedad de productos artesanales, manualidades y alimentos que reflejan la identidad de la región.",
+        image: "/images/feria.jpeg",
       },
     ],
     [],
@@ -84,8 +64,8 @@ export default function LaCiudadPage() {
             </h1>
           </div>
           <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-4xl mx-auto leading-relaxed">
-            Villa Elisa, conocida como "Ciudad Jardín", te ofrece tranquilidad y actividades para disfrutar de la vida
-            entrerriana.
+Villa Elisa, conocida como la <strong>"Ciudad Jardín"</strong>, ofrece tranquilidad, naturaleza y actividades para disfrutar de la vida entrerriana.
+    Forma parte de la microregión turística <strong>Tierra de los Palmares</strong> y es reconocida como <strong>Ciudad Bienestar</strong>.
           </p>
         </div>
 

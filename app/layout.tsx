@@ -11,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Villa Elisa - Entre Ríos | Alojamiento de Relax",
+  title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
   description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
   keywords: "Villa Elisa, Entre Ríos, alojamiento, alquiler, turismo, relax, Argentina, termas",
   authors: [{ name: "Villa Elisa Entre Ríos" }],
@@ -23,13 +23,13 @@ export const metadata = {
     type: "website",
     locale: "es_AR",
     url: "https://villaelisa-entrerios.com",
-    title: "Villa Elisa - Entre Ríos | Alojamiento de Relax",
+    title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
     description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
     siteName: "Villa Elisa - Entre Ríos",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Villa Elisa - Entre Ríos | Alojamiento de Relax",
+    title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
     description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
   },
     generator: 'v0.dev'

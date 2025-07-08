@@ -20,7 +20,7 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 export default function ContactoPage() {
   const handleWhatsApp = () => {
     const message = "Hola! Me comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
-    const phoneNumber = "+5491133268005"
+    const phoneNumber = "+5493447560251"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }
@@ -60,7 +60,7 @@ export default function ContactoPage() {
                 onClick={handleWhatsApp}
                 className="w-full bg-[#25D366] hover:bg-[#20BA5A] text-white py-2 md:py-2 lg:py-3 rounded-lg transition-all duration-300 border-0 text-xs md:text-sm"
               >
-                Escribir
+                Enviar Mensaje
               </Button>
             </CardContent>
           </Card>
@@ -76,10 +76,10 @@ export default function ContactoPage() {
                 Seguinos para ver más fotos y novedades
               </p>
               <Button
-                onClick={handleInstagram}
+                // onClick={handleInstagram}
                 className="w-full bg-gradient-to-r from-[#E4405F] to-[#C13584] hover:from-[#D73652] hover:to-[#B02A7A] text-white py-2 md:py-2 lg:py-3 rounded-lg transition-all duration-300 border-0 text-xs md:text-sm"
               >
-                Seguir
+                Próximamente
               </Button>
             </CardContent>
           </Card>
@@ -96,11 +96,11 @@ export default function ContactoPage() {
               <div className="space-y-2 md:space-y-3 villa-text-muted text-xs md:text-sm">
                 <div className="flex items-center justify-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+54 9 11 3326-8005</span>
+                  <span>+5493447560251</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <InstagramIcon className="w-4 h-4" />
-                  <span>@villaelisa_entrerios</span>
+                  <span>Próximamente</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <MapPin className="w-4 h-4" />
@@ -109,8 +109,11 @@ export default function ContactoPage() {
               </div>
             </CardContent>
           </Card>
+          
         </div>
+        
       </div>
+      
     </div>
   )
 }

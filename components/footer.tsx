@@ -16,7 +16,7 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 export default function Footer() {
   const handleWhatsApp = () => {
     const message = "Hola! Me comunico por el departamento en alquiler en Villa Elisa. Mi nombre es..."
-    const phoneNumber = "+5491133268005"
+    const phoneNumber = "+5493447560251"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }
@@ -41,12 +41,12 @@ export default function Footer() {
             >
               <WhatsAppIcon className="w-3 h-3 md:w-4 md:h-4 text-white" />
             </button>
-            <button
+            {/* <button
               onClick={handleInstagram}
               className="w-7 h-7 md:w-8 md:h-8 bg-gradient-to-r from-[#E4405F] to-[#C13584] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"
             >
               <InstagramIcon className="w-3 h-3 md:w-4 md:h-4 text-white" />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
