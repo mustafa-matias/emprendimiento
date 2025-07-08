@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-from-top {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.slide-in-from-left {
+  animation: slide-in-from-left 0.8s ease-out;
+}
+
+.slide-in-from-right {
+  animation: slide-in-from-right 0.8s ease-out;
+}
+
+.slide-in-from-bottom {
+  animation: slide-in-from-bottom 0.6s ease-out;
+}
+
+.slide-in-from-top {
+  animation: slide-in-from-top 0.4s ease-out;
+}
+
+/* Estilos para Villa Elisa */
+.villa-bg {
+  background: linear-gradient(135deg, #f7f3ed 0%, #ede4d3 50%, #e8dcc6 100%);
+}
+
+.villa-footer {
+  background: linear-gradient(135deg, #8b6f47 0%, #a0845c 50%, #6d5635 100%);
+}
+
+.villa-text {
+  color: #8b6f47;
+}
+
+.villa-text-muted {
+  color: rgba(139, 111, 71, 0.8);
+}
+
+.villa-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(139, 111, 71, 0.2);
+}
+
+.villa-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(139, 111, 71, 0.15);
+}
+
+.villa-gradient-line {
+  background: linear-gradient(90deg, #a0845c 0%, #8b6f47 100%);
+}
