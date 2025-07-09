@@ -3,29 +3,33 @@
 import { Card, CardContent } from "@/components/ui/card"
 import WhatsAppFloat from "@/components/whatsapp-float"
 import LazyImage from "@/components/lazy-image"
-import { useMemo } from "react"
+import { useMemo, useState } from "react"
 
 export default function AtraccionesPage() {
   const attractions = useMemo(
     () => [
       {
         title: "Palacio San José (Caseros)",
-        description: "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
+        description:
+          "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
         image: "/images/palacio.jpg",
       },
       {
         title: "Parque Nacional El Palmar",
-        description: "A 45 minutos. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna. Una experiencia natural única.",
+        description:
+          "A 45 minutos. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna. Una experiencia natural única.",
         image: "/images/palmar.jpg",
       },
       {
         title: "Colón y sus Playas",
-        description: "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
+        description:
+          "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
         image: "/images/colon.jpeg",
       },
       {
         title: "Represa Salto Grande",
-        description: "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
+        description:
+          "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
         image: "/images/represa.jpeg",
       },
       {
@@ -35,18 +39,38 @@ export default function AtraccionesPage() {
       },
       {
         title: "Pueblo Liebig",
-        description: "A 40 minutos. Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
+        description:
+          "A 40 minutos. Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
         image: "/images/liebig.jpg",
       },
-            {
+      {
         title: "Cristo de la Hermandad – Ruta 130",
-        description: "Escultura de 20 metros tallada en un tronco de árbol caído. Impactante símbolo de fe junto a la ruta.",
+        description:
+          "Escultura de 20 metros tallada en un tronco de árbol caído. Impactante símbolo de fe junto a la ruta.",
         image: "/images/cristo.jpeg",
       },
-
     ],
     [],
   )
+
+  // Estado para controlar modal
+  const [modalOpen, setModalOpen] = useState(false)
+  const [modalImage, setModalImage] = useState("")
+  const [modalTitle, setModalTitle] = useState("")
+
+  // Abrir modal con imagen y título
+  function openModal(image: string, title: string) {
+    setModalImage(image)
+    setModalTitle(title)
+    setModalOpen(true)
+  }
+
+  // Cerrar modal
+  function closeModal() {
+    setModalOpen(false)
+    setModalImage("")
+    setModalTitle("")
+  }
 
   return (
     <div className="min-h-screen bg-[#f7f3ed] pt-4 md:pt-6 pb-4 px-2 md:px-4">
@@ -68,10 +92,11 @@ export default function AtraccionesPage() {
           {attractions.map((attraction, index) => (
             <Card
               key={attraction.title}
-              className="bg-white/60 border-[#8b6f47]/20 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group overflow-hidden animate-in slide-in-from-bottom"
+              className="bg-white/60 border-[#8b6f47]/20 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group overflow-hidden animate-in slide-in-from-bottom cursor-pointer"
               style={{
                 animationDelay: `${index * 100}ms`,
               }}
+              onClick={() => openModal(attraction.image, attraction.title)}
             >
               <div className="relative h-32 md:h-40 lg:h-48 overflow-hidden">
                 <LazyImage
@@ -93,6 +118,33 @@ export default function AtraccionesPage() {
           ))}
         </div>
       </div>
+
+      {/* Modal para imagen fullscreen */}
+      {modalOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          onClick={closeModal}
+        >
+          <div
+            className="relative max-w-5xl max-h-full mx-4"
+            onClick={(e) => e.stopPropagation()} // evitar cerrar al click dentro del modal
+          >
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-80 transition"
+              aria-label="Cerrar imagen"
+            >
+              ✕
+            </button>
+            <img
+              src={modalImage}
+              alt={modalTitle}
+              className="max-w-full max-h-[80vh] rounded-lg object-contain"
+            />
+            <p className="mt-2 text-center text-white text-lg font-semibold">{modalTitle}</p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
