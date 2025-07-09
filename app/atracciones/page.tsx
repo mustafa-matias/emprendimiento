@@ -9,12 +9,6 @@ export default function AtraccionesPage() {
   const attractions = useMemo(
     () => [
       {
-        title: "Palacio San José (Caseros)",
-        description:
-          "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
-        image: "/images/palacio.jpg",
-      },
-      {
         title: "Parque Nacional El Palmar",
         description:
           "A 45 minutos. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna. Una experiencia natural única.",
@@ -26,28 +20,25 @@ export default function AtraccionesPage() {
           "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
         image: "/images/colon.jpeg",
       },
-      // {
-      //   title: "Represa Salto Grande",
-      //   description:
-      //     "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
-      //   image: "/images/represa.jpeg",
-      // },
-      {
-        title: "Castillo San Carlos",
-        description: "A 35 min. Histórico castillo con museo y hermosos jardines en Concordia.",
+                  {
+        title: "Bodegas",
+        description:
+          "Cata, degustación de vinos y maridaje. La región cuenta con bodegas que cultivan diversas variedades de uva, tanto tintas como blancas.",
+        image: "/images/uvas.jpg",
+      },
+
+            {
+        title: "Palacio San José (Caseros)",
+        description:
+          "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
         image: "/images/palacio.jpg",
       },
+
       {
         title: "Pueblo Liebig",
         description:
-          "A 40 minutos. Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
+          "Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
         image: "/images/liebig.jpg",
-      },
-      {
-        title: "Cristo de la Hermandad – Ruta 130",
-        description:
-          "Escultura de 20 metros tallada en un tronco de árbol caído. Impactante símbolo de fe junto a la ruta.",
-        image: "/images/cristo.jpeg",
       },
     ],
     [],

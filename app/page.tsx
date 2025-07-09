@@ -65,10 +65,10 @@ export default function HomePage() {
       {
         icon: MapPin,
         label: "ZONA CÉNTRICA",
-        description: "A solo 4 cuadras del tranquilo centro de la ciudad. Podrás recorrer caminando los distintos puntos gastronómicos y las principales atracciones.",
+        description: "A solo 4 cuadras de la terminal de ómnibus y del tranquilo centro de la ciudad. Podrás recorrer caminando sus arbolados bulevares y descubrir los principales puntos culturales y gastronómicos de nuestra ciudad.",
       },
       { icon: Car, label: "GARAGE", description: "Garage Semi Cubierto a la entrada del alojamiento." },
-      { icon: Home, label: "PATIO", description: "Espacio exterior privado para relajarse y disfrutar del aire libre con vista a una parra de uvas." },
+      { icon: Home, label: "PATIO", description: "Patio privado descubierto con parra de uvas." },
       { icon: Wifi, label: "WIFI", description: "Internet disponible en todo el alojamiento." },
       {
         icon: Snowflake,

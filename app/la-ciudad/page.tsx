@@ -18,7 +18,7 @@ export default function LaCiudadPage() {
         title: "Monumento al Sembrador",
         description:
           "Homenaje a los agricultores que contribuyeron al crecimiento de la ciudad. Es la postal más representativa de Villa Elisa.",
-        image: "/images/monumento.jpg",
+        image: "/images/monumento.jpeg",
       },
       {
         title: "Balneario 'El Rocha'",
@@ -29,7 +29,7 @@ export default function LaCiudadPage() {
       {
         title: "Iglesia Virgen Niña",
         description: "De estilo neogótico, su arquitectura embellece el centro de la ciudad.",
-        image: "/images/iglesia.JPG",
+        image: "/images/iglesia.jpeg",
       },
       {
         title: "Estancia Museo El Porvenir",
@@ -46,9 +46,16 @@ export default function LaCiudadPage() {
       {
         title: "Tren Histórico",
         description:
-          "Viaje en formación ferroviaria antigua por 3–36 km hasta Caseros, pasando por estaciones, con opción de conexión al Palacio San José.",
+          "Hermosa experiencia en formación ferroviaria antigua. Ideal para disfrutar en familia y revivir la historia sobre rieles.",
         image: "/images/tren.jpeg",
       },
+            {
+        title: "Almacenes con Historia",
+        description:
+          "Conectá con experiencias centenarias, relatos y sabores que perduran en el tiempo. Desde la cocina tradicional hasta las vivencias de quienes los habitaron.",
+        image: "/images/almacenes.jpg",
+      },
+
       {
         title: "Feria y Tiendas Regionales",
         description:
