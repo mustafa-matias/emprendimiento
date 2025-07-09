@@ -26,7 +26,7 @@ export default function LaCiudadPage() {
       {
         title: "Iglesia Virgen Niña",
         description: "De estilo neogótico, su arquitectura embellece el centro de la ciudad.",
-        image: "/images/iglesia.jpg",
+        image: "/images/iglesia.JPG",
       },
       {
         title: "Estancia Museo El Porvenir",

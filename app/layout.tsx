@@ -11,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
+  title: "LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
   description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
   keywords: "Villa Elisa, Entre Ríos, alojamiento, alquiler, turismo, relax, Argentina, termas",
   authors: [{ name: "Villa Elisa Entre Ríos" }],
@@ -23,13 +23,13 @@ export const metadata = {
     type: "website",
     locale: "es_AR",
     url: "https://villaelisa-entrerios.com",
-    title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
+    title: "LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
     description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
     siteName: "Villa Elisa - Entre Ríos",
   },
   twitter: {
     card: "summary_large_image",
-    title: "🏡 LA CASITA - VILLA ELISA E.R.| Alojamiento Turístico",
+    title: "LA CASITA  - VILLA ELISA E.R.| Alojamiento Turístico",
     description: "Alquiler de alojamiento en Villa Elisa, Entre Ríos. Tu lugar de relax en el corazón de Entre Ríos.",
   },
     generator: 'v0.dev'
@@ -52,6 +52,7 @@ export default function RootLayout({
         <meta httpEquiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
+         <link rel="icon" href="https://img.icons8.com/?size=100&id=tNcJ7GGjHsUq&format=png&color=000000" />
       </head>
       <body className={inter.className}>
         <Navigation />

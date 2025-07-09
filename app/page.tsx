@@ -69,7 +69,7 @@ export default function HomePage() {
       },
       { icon: Car, label: "GARAGE", description: "Garage Semi Cubierto a la entrada del alojamiento." },
       { icon: Home, label: "PATIO", description: "Espacio exterior privado para relajarse y disfrutar del aire libre con vista a una parra de uvas." },
-      { icon: Wifi, label: "WIFI", description: "Internet disponible en todo el alojamiento" },
+      { icon: Wifi, label: "WIFI", description: "Internet disponible en todo el alojamiento." },
       {
         icon: Snowflake,
         label: "AIRE FRÍO/CALOR",
@@ -78,9 +78,9 @@ export default function HomePage() {
       {
         icon: Tv,
         label: "TV",
-        description: "Televisión en el living-comedor",
+        description: "Televisión en el living-comedor.",
       },
-      { icon: Dog, label: "PET FRIENDLY", description: "Apto 🐾 Servicio de Guardería opcional" },
+      { icon: Dog, label: "PET FRIENDLY", description: "Apto 🐾 Servicio de Guardería opcional." },
     ],
     [],
   )
@@ -132,7 +132,7 @@ export default function HomePage() {
       Mereces un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
     </h1>
     <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-      Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado y apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
+      Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado. Apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
     </p>
 
     <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 lg:gap-4 py-4">
