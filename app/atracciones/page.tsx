@@ -26,12 +26,12 @@ export default function AtraccionesPage() {
           "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
         image: "/images/colon.jpeg",
       },
-      {
-        title: "Represa Salto Grande",
-        description:
-          "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
-        image: "/images/represa.jpeg",
-      },
+      // {
+      //   title: "Represa Salto Grande",
+      //   description:
+      //     "A 30 minutos. Impresionante obra de ingeniería binacional entre Argentina y Uruguay.",
+      //   image: "/images/represa.jpeg",
+      // },
       {
         title: "Castillo San Carlos",
         description: "A 35 min. Histórico castillo con museo y hermosos jardines en Concordia.",
