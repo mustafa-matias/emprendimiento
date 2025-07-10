@@ -26,7 +26,7 @@ export default function ContactoPage() {
   }
 
   const handleInstagram = () => {
-    const url = "https://instagram.com/caindependiente"
+    const url = "https://instagram.com/lacasitadelparral"
     window.open(url, "_blank")
   }
 
@@ -76,10 +76,10 @@ export default function ContactoPage() {
                 Seguinos para ver más fotos y novedades
               </p>
               <Button
-                // onClick={handleInstagram}
+                onClick={handleInstagram}
                 className="w-full bg-gradient-to-r from-[#E4405F] to-[#C13584] hover:from-[#D73652] hover:to-[#B02A7A] text-white py-2 md:py-2 lg:py-3 rounded-lg transition-all duration-300 border-0 text-xs md:text-sm"
               >
-                Próximamente
+                Seguir
               </Button>
             </CardContent>
           </Card>
@@ -100,7 +100,7 @@ export default function ContactoPage() {
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <InstagramIcon className="w-4 h-4" />
-                  <span>Próximamente</span>
+                  <span>lacasitadelparral</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <MapPin className="w-4 h-4" />

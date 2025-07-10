@@ -22,23 +22,24 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Mobile: Title on the right */}
         <div className="md:hidden order-2">
-          <Link
-            href="/"
-            className="text-sm font-semibold text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
-          >
-            🏡 LA CASITA DEL PARRAL - VILLA ELISA E.R.
-          </Link>
-        </div>
+  <Link
+    href="/"
+    className="text-sm   text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
+  >
+    🏡 La Casita del Parral 🍇 Villa Elisa E.R.
+  </Link>
+</div>
+
 
         {/* Desktop: Title on the left */}
-        <div className="hidden md:block">
-          <Link
-            href="/"
-            className="text-base lg:text-lg font-semibold text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
-          >
-            🏡 LA CASITA DEL PARRAL - VILLA ELISA E.R.
-          </Link>
-        </div>
+<div className="hidden md:block">
+  <Link
+    href="/"
+    className="text-base lg:text-lg   text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
+  >
+    🏡 La Casita del Parral 🍇 Villa Elisa E.R.
+  </Link>
+</div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-6 xl:space-x-8">
