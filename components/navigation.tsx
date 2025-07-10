@@ -26,7 +26,7 @@ export default function Navigation() {
             href="/"
             className="text-sm font-semibold text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
           >
-            🏡 LA CASITA - VILLA ELISA E.R.
+            🏡 LA CASITA DEL PARRAL - VILLA ELISA E.R.
           </Link>
         </div>
 
@@ -36,7 +36,7 @@ export default function Navigation() {
             href="/"
             className="text-base lg:text-lg font-semibold text-[#8b6f47] tracking-wide hover:text-[#6d5635] transition-colors"
           >
-            🏡 LA CASITA - VILLA ELISA E.R.
+            🏡 LA CASITA DEL PARRAL - VILLA ELISA E.R.
           </Link>
         </div>
 
