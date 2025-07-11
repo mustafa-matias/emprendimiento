@@ -11,95 +11,95 @@ export default function FotosPage() {
   const photos = useMemo(
     () => [
       {
-        src: "/images/1.jpeg",
-        alt: "Entrada",
+        src: "/images/12.jpeg",
+        alt: "La Casita",
         span: "md:col-span-2 md:row-span-2",
       },
       {
-        src: "/images/7.jpeg",
-        alt: "Garage",
+        src: "/images/2.jpeg",
+        alt: "Living Comedor",
         span: "",
       },
       {
-        src: "/images/9.jpeg",
-        alt: "Cocina",
+        src: "/images/3.jpeg",
+        alt: "Cocina Integrada",
         span: "",
       },
       {
         src: "/images/4.jpeg",
-        alt: "Dormitorio",
+        alt: "Dormitorio con Aire",
         span: "md:row-span-2",
       },
       {
-        src: "/images/8.jpeg",
-        alt: "Living",
+        src: "/images/5.jpeg",
+        alt: "Dormitorio con Ventana al Patio",
+        span: "",
+      },
+      {
+        src: "/images/7.jpeg",
+        alt: "Garage",
+        span: "md:col-span-2",
+      },
+      {
+        src: "/images/6.jpeg",
+        alt: "Pet Friendly",
         span: "",
       },
       {
         src: "/images/8.jpeg",
-        alt: "Living",
-        span: "md:col-span-2",
-      },
-      {
-        src: "/images/3.jpg",
         alt: "Patio Descubierto",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop&q=80",
-        alt: "Comedor",
+        src: "/images/9.jpg",
+        alt: "Patio Descubierto",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=400&h=300&fit=crop&q=80",
-        alt: "Exterior de la casa",
+        src: "/images/1.jpeg",
+        alt: "Entrada",
         span: "",
       },
       {
-        src: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=300&fit=crop&q=80",
-        alt: "Garage cubierto",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=400&h=300&fit=crop&q=80",
-        alt: "Vista nocturna",
+        src: "/images/11.jpeg",
+        alt: "Living Comedor",
         span: "md:col-span-2",
       },
       {
-        src: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=400&h=300&fit=crop&q=80",
-        alt: "Entrada principal",
+        src: "/images/12.jpeg",
+        alt: "Entrada",
         span: "",
       },
-      {
-        src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&q=80",
-        alt: "Jardín",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=400&h=300&fit=crop&q=80",
-        alt: "Terraza",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop&q=80",
-        alt: "Interior cocina",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&h=300&fit=crop&q=80",
-        alt: "Baño secundario",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&q=80",
-        alt: "Vista lateral",
-        span: "",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop&q=80",
-        alt: "Detalle interior",
-        span: "",
-      },
+      // {
+      //   src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&q=80",
+      //   alt: "Jardín",
+      //   span: "",
+      // },
+      // {
+      //   src: "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=400&h=300&fit=crop&q=80",
+      //   alt: "Terraza",
+      //   span: "",
+      // },
+      // {
+      //   src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop&q=80",
+      //   alt: "Interior cocina",
+      //   span: "",
+      // },
+      // {
+      //   src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&h=300&fit=crop&q=80",
+      //   alt: "Baño secundario",
+      //   span: "",
+      // },
+      // {
+      //   src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&q=80",
+      //   alt: "Vista lateral",
+      //   span: "",
+      // },
+      // {
+      //   src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop&q=80",
+      //   alt: "Detalle interior",
+      //   span: "",
+      // },
     ],
     [],
   )
