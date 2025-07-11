@@ -51,13 +51,13 @@ export default function FotosPage() {
         span: "",
       },
       {
-        src: "/images/9.jpg",
-        alt: "Patio Descubierto",
-        span: "",
-      },
-      {
         src: "/images/1.jpeg",
         alt: "Entrada",
+        span: "",
+      },
+            {
+        src: "/images/9.jpg",
+        alt: "Patio Descubierto",
         span: "",
       },
       {
