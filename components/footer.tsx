@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
           <div className="text-center sm:text-left">
-            <p className="text-white/90 text-xs md:text-sm">Tu lugar de relax en el corazón de Villa Elisa, E.R.</p>
+            <p className="text-white/90 text-xs md:text-sm">Tu Lugar de Relax en el Corazón de Villa Elisa, E.R.</p>
           </div>
 
           <div className="flex space-x-2 md:space-x-3">

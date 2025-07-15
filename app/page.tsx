@@ -19,6 +19,7 @@ const ImageCarousel = () => {
       "/images/2.jpeg",
       "/images/7.jpeg",
       "/images/9.jpeg",
+      "/images/PetFriendly.jpeg",
     ],
     [],
   )
@@ -82,7 +83,7 @@ export default function HomePage() {
         label: "TV",
         description: "Televisión en el living-comedor.",
       },
-      { icon: Dog, label: "PET FRIENDLY", description: "Apto 🐾 Servicio de Guardería opcional." },
+      { icon: Dog, label: "PET FRIENDLY", description: "Porque sabemos que ellos también son parte de la Familia ❤️ Apto 🐾 Servicio de Guardería opcional." },
     ],
     [],
   )
