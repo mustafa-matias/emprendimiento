@@ -10,8 +10,13 @@ export default function FotosPage() {
 
   const photos = useMemo(
     () => [
-      {
+            {
         src: "/images/12.jpeg",
+        alt: "Entrada",
+        span: "",
+      },
+      {
+        src: "/images/1.jpeg",
         alt: "La Casita",
         span: "md:col-span-2 md:row-span-2",
       },
@@ -26,13 +31,13 @@ export default function FotosPage() {
         span: "",
       },
       {
-        src: "/images/4.jpeg",
+        src: "/images/5.jpeg",
         alt: "Dormitorio con Aire",
         span: "md:row-span-2",
       },
       {
-        src: "/images/5.jpeg",
-        alt: "Dormitorio con Ventana al Patio",
+        src: "/images/8.jpeg",
+        alt: "Ventana Living",
         span: "",
       },
       {
@@ -41,34 +46,29 @@ export default function FotosPage() {
         span: "md:col-span-2",
       },
       {
+        src: "/images/4.jpeg",
+        alt: "Dormitorio con Aire",
+        span: "",
+      },
+      {
+        src: "/images/9.jpeg",
+        alt: "Patio Descubierto",
+        span: "",
+      },
+      {
         src: "/images/6.jpeg",
         alt: "Pet Friendly",
         span: "",
       },
-      {
-        src: "/images/8.jpeg",
-        alt: "Patio Descubierto",
-        span: "",
-      },
-      {
-        src: "/images/1.jpeg",
-        alt: "Entrada",
-        span: "",
-      },
             {
-        src: "/images/9.jpg",
-        alt: "Patio Descubierto",
+        src: "/images/15.jpeg",
+        alt: "La Casita",
         span: "",
       },
       {
         src: "/images/11.jpeg",
         alt: "Living Comedor",
         span: "md:col-span-2",
-      },
-      {
-        src: "/images/12.jpeg",
-        alt: "Entrada",
-        span: "",
       },
       // {
       //   src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&q=80",

@@ -13,11 +13,12 @@ const ImageCarousel = () => {
   const images = useMemo(
     () => [
       "/images/lacasita.png",
+      "/images/1.jpeg",
       "/images/13.jpeg",
       "/images/5.jpeg",
       "/images/2.jpeg",
       "/images/7.jpeg",
-      "/images/9.jpg",
+      "/images/9.jpeg",
     ],
     [],
   )
