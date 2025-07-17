@@ -11,62 +11,62 @@ export default function FotosPage() {
   const photos = useMemo(
     () => [
             {
-        src: "/images/12.jpeg",
+        src: "/images/12.png",
         alt: "Entrada",
         span: "",
       },
       {
-        src: "/images/1.jpeg",
+        src: "/images/1.png",
         alt: "La Casita",
         span: "md:col-span-2 md:row-span-2",
       },
       {
-        src: "/images/2.jpeg",
+        src: "/images/2.png",
         alt: "Living Comedor",
         span: "",
       },
       {
-        src: "/images/3.jpeg",
+        src: "/images/3.png",
         alt: "Cocina Integrada",
         span: "",
       },
       {
-        src: "/images/5.jpeg",
+        src: "/images/5.png",
         alt: "Dormitorio con Aire",
         span: "md:row-span-2",
       },
       {
-        src: "/images/8.jpeg",
+        src: "/images/8.png",
         alt: "Ventana Living",
         span: "",
       },
       {
-        src: "/images/7.jpeg",
+        src: "/images/7.png",
         alt: "Garage",
         span: "md:col-span-2",
       },
       {
-        src: "/images/4.jpeg",
+        src: "/images/4.png",
         alt: "Dormitorio con Aire",
         span: "",
       },
       {
-        src: "/images/9.jpeg",
+        src: "/images/9.png",
         alt: "Patio Descubierto",
         span: "",
       },
       {
-        src: "/images/6.jpeg",
+        src: "/images/6.png",
         alt: "Pet Friendly",
         span: "",
       },
             {
-        src: "/images/15.jpeg",
+        src: "/images/15.png",
         alt: "La Casita",
         span: "",
       },
       {
-        src: "/images/11.jpeg",
+        src: "/images/11.png",
         alt: "Living Comedor",
         span: "md:col-span-2",
       },
