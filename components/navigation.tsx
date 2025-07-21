@@ -42,20 +42,25 @@ export default function Navigation() {
 </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-4 lg:space-x-6 xl:space-x-8">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`px-2 lg:px-3 py-1 lg:py-2 rounded-full text-xs lg:text-sm font-medium transition-all duration-300 hover:scale-105 ${
-                pathname === item.href ? "bg-[#8b6f47] text-white shadow-lg" : "text-[#8b6f47] hover:bg-[#8b6f47]/10"
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
+<div className="hidden md:flex items-center space-x-4 lg:space-x-6 xl:space-x-8">
+  {navItems.map((item) => {
+    const isActive = pathname === item.href;
 
+    return (
+      <Link
+        key={item.href}
+        href={item.href}
+        className={`px-2 lg:px-3 py-1 lg:py-2 rounded-full text-xs lg:text-sm font-medium transition-all duration-300 hover:scale-105
+          text-[#8b6f47]
+          ${isActive ? "underline decoration-[#8b6f47] underline-offset-4" : ""}
+          hover:bg-[#8b6f47]/10
+        `}
+      >
+        {item.label}
+      </Link>
+    );
+  })}
+</div>
         {/* Mobile Menu Button - on the left */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
