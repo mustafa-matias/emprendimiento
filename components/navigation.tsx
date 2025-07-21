@@ -52,7 +52,7 @@ export default function Navigation() {
         href={item.href}
         className={`px-2 lg:px-3 py-1 lg:py-2 rounded-full text-xs lg:text-sm font-medium transition-all duration-300 hover:scale-105
           text-[#8b6f47]
-          ${isActive ? "underline decoration-[#8b6f47] underline-offset-4" : ""}
+          ${isActive ? "underline decoration-[#8b6f47] underline-offset-4 decoration-2" : ""}
           hover:bg-[#8b6f47]/10
         `}
       >
