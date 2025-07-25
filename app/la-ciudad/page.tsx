@@ -47,7 +47,7 @@ export default function LaCiudadPage() {
         title: "Tren Histórico",
         description:
           "Hermosa experiencia en formación ferroviaria antigua. Ideal para disfrutar en familia y revivir la historia sobre rieles.",
-        image: "/images/tren.jpeg",
+        image: "/images/tren.jpg",
       },
             {
         title: "Almacenes con Historia",

@@ -18,7 +18,7 @@ export default function AtraccionesPage() {
         title: "Colón y sus Playas",
         description:
           "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
-        image: "https://ik.imagekit.io/0eggjsrgb/colon.jpeg?updatedAt=1753476920870?tr=w-800,q-80,f-auto",
+        image: "https://ik.imagekit.io/0eggjsrgb/colon.jpg?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
                   {
         title: "Bodegas",
