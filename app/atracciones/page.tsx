@@ -12,33 +12,33 @@ export default function AtraccionesPage() {
         title: "Parque Nacional El Palmar",
         description:
           "A 45 minutos. Bosque de palmeras yatay, senderos interpretativos y avistaje de fauna. Una experiencia natural única.",
-        image: "https://ik.imagekit.io/0eggjsrgb/palmar.jpg?updatedAt=1753476924684",
+        image: "https://ik.imagekit.io/0eggjsrgb/palmar.jpg?updatedAt=1753476924684?tr=w-800,q-80,f-auto",
       },
       {
         title: "Colón y sus Playas",
         description:
           "A solo 20 minutos. Playas de arena sobre el río Uruguay, balnearios y opciones de deportes acuáticos.",
-        image: "https://ik.imagekit.io/0eggjsrgb/colon.jpeg?updatedAt=1753476920870",
+        image: "https://ik.imagekit.io/0eggjsrgb/colon.jpeg?updatedAt=1753476920870?tr=w-800,q-80,f-auto",
       },
                   {
         title: "Bodegas",
         description:
           "Cata, degustación de vinos y maridaje. La región cuenta con bodegas que cultivan diversas variedades de uva, tanto tintas como blancas.",
-        image: "https://ik.imagekit.io/0eggjsrgb/uvas.jpg?updatedAt=1753476891041",
+        image: "https://ik.imagekit.io/0eggjsrgb/uvas.jpg?updatedAt=1753476891041?tr=w-800,q-80,f-auto",
       },
 
             {
         title: "Palacio San José (Caseros)",
         description:
           "A 36 km, accesible en tren histórico o auto. Antigua residencia de Justo José de Urquiza, con visitas guiadas por salones y jardines de estilo nacional.",
-        image: "https://ik.imagekit.io/0eggjsrgb/palacio.jpg?updatedAt=1753476926506",
+        image: "https://ik.imagekit.io/0eggjsrgb/palacio.jpg?updatedAt=1753476926506?tr=w-800,q-80,f-auto",
       },
 
       {
         title: "Pueblo Liebig",
         description:
           "Pueblo de historia industrial, con museo del frigorífico y arquitectura inglesa conservada.",
-        image: "https://ik.imagekit.io/0eggjsrgb/liebig.jpg?updatedAt=1753476923806",
+        image: "https://ik.imagekit.io/0eggjsrgb/liebig.jpg?updatedAt=1753476923806?tr=w-800,q-80,f-auto",
       },
     ],
     [],
