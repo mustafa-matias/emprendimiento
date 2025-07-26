@@ -11,95 +11,65 @@ export default function FotosPage() {
   const photos = useMemo(
     () => [
             {
-        src: "/images/12.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/12.png?updatedAt=1753476918574?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Entrada",
         span: "",
       },
       {
-        src: "/images/1.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/1.png?updatedAt=1753476919516?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "La Casita",
         span: "md:col-span-2 md:row-span-2",
       },
       {
-        src: "/images/2.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/2.png?updatedAt=1753476896790?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Living Comedor",
         span: "",
       },
       {
-        src: "/images/3.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/3.png?updatedAt=1753476896367?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Cocina Integrada",
         span: "",
       },
       {
-        src: "/images/5.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/5.png?updatedAt=1753476908730?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Dormitorio con Aire",
         span: "md:row-span-2",
       },
       {
-        src: "/images/8.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/8.png?updatedAt=1753476916046?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Ventana Living",
         span: "",
       },
       {
-        src: "/images/7.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/7.png?updatedAt=1753476911037?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Garage",
         span: "md:col-span-2",
       },
       {
-        src: "/images/4.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/4.png?updatedAt=1753476907445?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Dormitorio con Aire",
         span: "",
       },
       {
-        src: "/images/9.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/9.png?updatedAt=1753476914876?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Patio Descubierto",
         span: "",
       },
       {
-        src: "/images/6.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/6.png?updatedAt=1753476908113?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Pet Friendly",
         span: "",
       },
             {
-        src: "/images/15.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/15.png?updatedAt=1753476922242?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "La Casita",
         span: "",
       },
       {
-        src: "/images/11.png",
+        src: "https://ik.imagekit.io/0eggjsrgb/11.png?updatedAt=1753476919058?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
         alt: "Living Comedor",
         span: "md:col-span-2",
       },
-      // {
-      //   src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop&q=80",
-      //   alt: "Jardín",
-      //   span: "",
-      // },
-      // {
-      //   src: "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=400&h=300&fit=crop&q=80",
-      //   alt: "Terraza",
-      //   span: "",
-      // },
-      // {
-      //   src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop&q=80",
-      //   alt: "Interior cocina",
-      //   span: "",
-      // },
-      // {
-      //   src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400&h=300&fit=crop&q=80",
-      //   alt: "Baño secundario",
-      //   span: "",
-      // },
-      // {
-      //   src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&q=80",
-      //   alt: "Vista lateral",
-      //   span: "",
-      // },
-      // {
-      //   src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop&q=80",
-      //   alt: "Detalle interior",
-      //   span: "",
-      // },
     ],
     [],
   )

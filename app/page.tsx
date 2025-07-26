@@ -12,14 +12,14 @@ const ImageCarousel = () => {
 
   const images = useMemo(
     () => [
-      "/images/lacasita.png",
-      "/images/1.png",
-      "/images/13.png",
-      "/images/5.png",
-      "/images/2.png",
-      "/images/7.png",
-      "/images/9.png",
-      "/images/PetFriendly.jpeg",
+      "https://ik.imagekit.io/0eggjsrgb/lacasita.png?updatedAt=1753476924033?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/1.png?updatedAt=1753476919516?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/13.png?updatedAt=1753476919186?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/5.png?updatedAt=1753476908730?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/2.png?updatedAt=1753476896790?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/7.png?updatedAt=1753476911037?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/9.png?updatedAt=1753476914876?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/PetFriendly.jpeg?updatedAt=1753476926426?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
     ],
     [],
   )

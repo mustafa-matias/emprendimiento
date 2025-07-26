@@ -12,55 +12,55 @@ export default function LaCiudadPage() {
         title: "Complejo Termal - Villa Elisa",
         description:
           "Aguas termales saladas de fuerte mineralización. Diez piscinas con distintas temperaturas (cubiertas y al aire libre).También cuenta con lago, playa, golf, gastronomía, áreas deportivas y recreativas.",
-        image: "/images/termas1.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/termas1.jpg?updatedAt=1753476889759?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
       {
         title: "Monumento al Sembrador",
         description:
           "Homenaje a los agricultores que contribuyeron al crecimiento de la ciudad. Es la postal más representativa de Villa Elisa.",
-        image: "/images/monumento.jpeg",
+        image: "https://ik.imagekit.io/0eggjsrgb/monumento.jpeg?updatedAt=1753476924261?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
       {
         title: "Balneario 'El Rocha'",
         description:
           "Arroyo de aguas de vertiente rodeado de un hermoso entorno natural. Playas de arena, camping, parrillas y juegos infantiles.",
-        image: "/images/rocha.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/rocha.jpg?updatedAt=1753476890990?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
       {
         title: "Iglesia Virgen Niña",
         description: "De estilo neogótico, su arquitectura embellece el centro de la ciudad.",
-        image: "/images/iglesia.jpeg",
+        image: "https://ik.imagekit.io/0eggjsrgb/iglesia.jpeg?updatedAt=1753476923214",
       },
       {
         title: "Estancia Museo El Porvenir",
         description:
           "Antigua casona colonial de 1885 convertida en museo regional. Exhibe objetos de inmigrantes, carruajes, autos antiguos y jardines con mirador.",
-        image: "/images/museo.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/museo.jpg?updatedAt=1753476924092?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
       {
         title: "Biciturismo",
         description:
           "Circuitos urbanos y rurales, guiados o autoguiados, para descubrir paisajes campestres y la ciudad de forma saludable.",
-        image: "/images/bici.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/bici.jpg?updatedAt=1753476921902?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
       {
         title: "Tren Histórico",
         description:
           "Hermosa experiencia en formación ferroviaria antigua. Ideal para disfrutar en familia y revivir la historia sobre rieles.",
-        image: "/images/tren.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/tren.jpg?updatedAt=1753478678314?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
             {
         title: "Almacenes con Historia",
         description:
           "Conectá con experiencias centenarias, relatos y sabores que perduran en el tiempo. Desde la cocina tradicional hasta las vivencias de quienes los habitaron.",
-        image: "/images/almacenes.jpg",
+        image: "https://ik.imagekit.io/0eggjsrgb/almacenes.jpg?updatedAt=1753476920546?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
 
       {
         title: "Feria y Tiendas Regionales",
         description:
           "Variedad de productos artesanales, manualidades y alimentos que reflejan la identidad de la región.",
-        image: "/images/feria.jpeg",
+        image: "https://ik.imagekit.io/0eggjsrgb/feria.jpeg?updatedAt=1753476922939?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
     ],
     [],
