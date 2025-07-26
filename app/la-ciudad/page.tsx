@@ -53,7 +53,7 @@ export default function LaCiudadPage() {
         title: "Almacenes con Historia",
         description:
           "Conectá con experiencias centenarias, relatos y sabores que perduran en el tiempo. Desde la cocina tradicional hasta las vivencias de quienes los habitaron.",
-        image: "https://ik.imagekit.io/0eggjsrgb/almacenes.jpg?updatedAt=1753476920546?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        image: "https://ik.imagekit.io/0eggjsrgb/almacenes.jpeg?updatedAt=1753478678314?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
 
       {
