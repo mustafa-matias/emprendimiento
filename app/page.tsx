@@ -199,7 +199,7 @@ export default function HomePage() {
     <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
       {[
         { label: 'La Casita - Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
-        { label: 'Descubre la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
+        { label: 'Descubrí la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
         { label: 'Atracciones Cercanas', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
         { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }
       ].map((item, index) => (
