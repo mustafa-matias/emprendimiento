@@ -132,7 +132,7 @@ export default function HomePage() {
 <div className="order-1 lg:order-2 relative z-10 p-4 md:p-6 lg:p-8 xl:p-12 bg-gradient-to-l from-[#f7f3ed]/95 via-[#ede4d3]/90 to-transparent lg:bg-gradient-to-r lg:from-[#f7f3ed]/95 lg:via-[#ede4d3]/90 lg:to-transparent">
   <div className="space-y-4 md:space-y-6 lg:space-y-8 text-center lg:text-left">
     <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light text-[#8b6f47] leading-tight">
-      Mereces un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
+      Merecés un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
     </h1>
     <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
       Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado. Apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
