@@ -54,7 +54,7 @@ export default function ContactoPage() {
               </div>
               <h3 className="text-base md:text-lg lg:text-xl font-medium villa-text mb-2 md:mb-3 lg:mb-4">WhatsApp</h3>
               <p className="villa-text-muted mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm">
-                ¿Tenés dudas o querés reservar? Escribinos por WhatsApp.
+                ¿Tenés dudas o querés reservar? Escribinos.
               </p>
               <Button
                 onClick={handleWhatsApp}
