@@ -41,7 +41,7 @@ export default function ContactoPage() {
             </h1>
           </div>
           <p className="villa-text-muted text-sm md:text-base lg:text-lg max-w-2xl mx-auto">
-            ¿Listo para tu viaje de relax? Contáctanos para hacer tu reserva.
+            ¿Listo para tu viaje de relax? Contactanos para hacer tu reserva.
           </p>
         </div>
 
