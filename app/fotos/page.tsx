@@ -105,9 +105,9 @@ export default function FotosPage() {
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-[#a0845c] to-[#8b6f47] rounded-full"></div>
             </h1>
           </div>
-          <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-3xl mx-auto">
-            Descubrí cada rincón de nuestro acogedor alojamiento en Villa Elisa a través de estas imágenes.
-          </p>
+<p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-3xl mx-auto">
+  Descubrí <strong>Cada Rincón</strong> de nuestro acogedor<strong> Alojamiento</strong> en <em>Villa Elisa</em> a través de estas imágenes.
+</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-3 auto-rows-[150px] md:auto-rows-[200px]">

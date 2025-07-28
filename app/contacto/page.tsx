@@ -40,9 +40,9 @@ export default function ContactoPage() {
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 villa-gradient-line rounded-full"></div>
             </h1>
           </div>
-          <p className="villa-text-muted text-sm md:text-base lg:text-lg max-w-2xl mx-auto">
-            ¿Listo para tu viaje de relax? Contactanos para hacer tu reserva o resolver cualquier tipo de inquietud.
-          </p>
+<p className="villa-text-muted text-sm md:text-base lg:text-lg max-w-2xl mx-auto">
+  ¿Listo para tu Viaje de Relax? <strong>Contactanos</strong> para hacer tu reserva o resolver cualquier tipo de inquietud.
+</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">

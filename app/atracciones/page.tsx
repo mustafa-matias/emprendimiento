@@ -75,7 +75,7 @@ export default function AtraccionesPage() {
             </h1>
           </div>
           <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg max-w-4xl mx-auto leading-relaxed">
-            Descubrí las atracciones que rodean Villa Elisa, ideales para disfrutar en una escapada de ida y vuelta en el mismo día.
+            Descubrí las <strong>Atracciones</strong> que rodean <em>Villa Elisa</em>, ideales para disfrutar en una escapada de ida y vuelta en el mismo día.
           </p>
         </div>
 
