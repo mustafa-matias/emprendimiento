@@ -47,7 +47,7 @@ export default function LaCiudadPage() {
         title: "Tren Histórico",
         description:
           "Hermosa experiencia en formación ferroviaria antigua. Ideal para disfrutar en familia y revivir la historia sobre rieles.",
-        image: "https://ik.imagekit.io/0eggjsrgb/tren.jpg?updatedAt=1753478678314?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        image: "https://ik.imagekit.io/0eggjsrgb/tren.jpeg?updatedAt=1753726271340?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
             {
         title: "Almacenes con Historia",
@@ -60,7 +60,7 @@ export default function LaCiudadPage() {
         title: "Feria y Tiendas Regionales",
         description:
           "Variedad de productos artesanales, manualidades y alimentos que reflejan la identidad de la región.",
-        image: "https://ik.imagekit.io/0eggjsrgb/feria.jpeg?updatedAt=1753476922939?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        image: "https://ik.imagekit.io/0eggjsrgb/feria.jpeg?updatedAt=1753726270840?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       },
     ],
     [],
