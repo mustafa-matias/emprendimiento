@@ -8,68 +8,94 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 export default function FotosPage() {
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null)
 
-  const photos = useMemo(
+ const photos = useMemo(
     () => [
-            {
-        src: "https://ik.imagekit.io/0eggjsrgb/12.png?updatedAt=1753476918574?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Entrada",
-        span: "",
-      },
       {
-        src: "https://ik.imagekit.io/0eggjsrgb/1.png?updatedAt=1753476919516?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        src: "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(3).png?updatedAt=1754950231436",
         alt: "La Casita",
         span: "md:col-span-2 md:row-span-2",
       },
       {
-        src: "https://ik.imagekit.io/0eggjsrgb/2.png?updatedAt=1753476896790?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Living Comedor",
-        span: "",
+        src: "https://ik.imagekit.io/0eggjsrgb/1.png?updatedAt=1753476919516",
+        alt: "La Casita en verano",
+        span: "md:col-span-2 md:row-span-2",
+      },      {
+        src: "https://ik.imagekit.io/0eggjsrgb/8.png?updatedAt=1753476916046",
+        alt: "Ventana del Living",
+        span: "md:col-span-2 md:row-span-2",
       },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/3.png?updatedAt=1753476896367?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Cocina Integrada",
-        span: "",
-      },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/5.png?updatedAt=1753476908730?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+
+
+
+            {
+        src: "https://ik.imagekit.io/0eggjsrgb/5.png?updatedAt=1753476908730",
         alt: "Dormitorio con Aire",
         span: "md:row-span-2",
       },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/8.png?updatedAt=1753476916046?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Ventana Living",
-        span: "",
-      },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/7.png?updatedAt=1753476911037?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Garage",
-        span: "md:col-span-2",
-      },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/4.png?updatedAt=1753476907445?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Dormitorio con Aire",
-        span: "",
-      },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/9.png?updatedAt=1753476914876?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Patio Descubierto",
-        span: "",
-      },
-      {
-        src: "https://ik.imagekit.io/0eggjsrgb/6.png?updatedAt=1753476908113?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "Pet Friendly",
-        span: "",
-      },
             {
-        src: "https://ik.imagekit.io/0eggjsrgb/15.png?updatedAt=1753476922242?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-        alt: "La Casita",
-        span: "",
+        src: "https://ik.imagekit.io/0eggjsrgb/4.png?updatedAt=1753476907445",
+        alt: "Dormitorio con Aire",
+        span: "md:row-span-2",
       },
+
+
+
       {
-        src: "https://ik.imagekit.io/0eggjsrgb/11.png?updatedAt=1753476919058?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        src: "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(1).png?updatedAt=1754950230464",
         alt: "Living Comedor",
         span: "md:col-span-2",
       },
+      {
+        src: "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(2).png?updatedAt=1754950230311",
+        alt: "Living Comedor",
+        span: "md:col-span-2",
+      },
+
+
+
+      {
+        src: "https://ik.imagekit.io/0eggjsrgb/WhatsApp%20Image%202025-08-11%20at%2018.10.49.jpeg?updatedAt=1754950237356",
+        alt: "Vanitory Baño",
+        span: "",
+      },
+      {
+        src: "https://ik.imagekit.io/0eggjsrgb/WhatsApp%20Image%202025-08-11%20at%2018.10.49%20(1).jpeg?updatedAt=1754950237273",
+        alt: "Baño",
+        span: "",
+      },
+
+
+
+      {
+        src: "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo(1).png?updatedAt=1754950240289",
+        alt: "Ducha Baño",
+        span: "",
+      },
+            {
+        src: "https://ik.imagekit.io/0eggjsrgb/9.png?updatedAt=1753476914876",
+        alt: "Patio Descubierto",
+        span: "",
+      },
+
+
+            {
+        src: "https://ik.imagekit.io/0eggjsrgb/3.png?updatedAt=1753476896367",
+        alt: "Cocina Integrada",
+        span: "md:col-span-2",
+      },
+
+            {
+        src: "https://ik.imagekit.io/0eggjsrgb/7.png?updatedAt=1753476911037?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+        alt: "Pet Friendly",
+        span: "md:col-span-2",
+      },
+      {
+        src: "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo.png?updatedAt=1754950230188",
+        alt: "La Casita",
+        span: "md:col-span-2",
+      },
+
+
     ],
     [],
   )

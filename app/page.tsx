@@ -14,9 +14,9 @@ const ImageCarousel = () => {
     () => [
       "https://ik.imagekit.io/0eggjsrgb/lacasita.png?updatedAt=1753476924033?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       "https://ik.imagekit.io/0eggjsrgb/1.png?updatedAt=1753476919516?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-      "https://ik.imagekit.io/0eggjsrgb/13.png?updatedAt=1753476919186?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       "https://ik.imagekit.io/0eggjsrgb/5.png?updatedAt=1753476908730?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
-      "https://ik.imagekit.io/0eggjsrgb/2.png?updatedAt=1753476896790?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(1).png?updatedAt=1754950230464updatedAt=1753478982129?tr=w-800,q-80,f-auto",
+      "https://ik.imagekit.io/0eggjsrgb/WhatsApp%20Image%202025-08-11%20at%2018.10.49.jpeg?updatedAt=1754950237356",
       "https://ik.imagekit.io/0eggjsrgb/7.png?updatedAt=1753476911037?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       "https://ik.imagekit.io/0eggjsrgb/9.png?updatedAt=1753476914876?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
       "https://ik.imagekit.io/0eggjsrgb/PetFriendly.jpeg?updatedAt=1753476926426?updatedAt=1753478982129?tr=w-800,q-80,f-auto",
