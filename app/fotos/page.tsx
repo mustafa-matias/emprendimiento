@@ -79,7 +79,7 @@ export default function FotosPage() {
 
 
             {
-        src: "https://ik.imagekit.io/0eggjsrgb/3.png?updatedAt=1753476896367",
+        src: "https://ik.imagekit.io/0eggjsrgb/3.png?updatedAt=1755289636685",
         alt: "Cocina Integrada",
         span: "md:col-span-2",
       },

@@ -129,31 +129,31 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#f7f3ed]/20 to-[#f7f3ed]/60 lg:to-[#f7f3ed]/80"></div>
               </div>
 
-<div className="order-1 lg:order-2 relative z-10 p-4 md:p-6 lg:p-8 xl:p-12 bg-gradient-to-l from-[#f7f3ed]/95 via-[#ede4d3]/90 to-transparent lg:bg-gradient-to-r lg:from-[#f7f3ed]/95 lg:via-[#ede4d3]/90 lg:to-transparent">
-  <div className="space-y-4 md:space-y-6 lg:space-y-8 text-center lg:text-left">
-    <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light text-[#8b6f47] leading-tight">
-      Merecés un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
-    </h1>
-    <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
-      Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado. Apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
-    </p>
+              <div className="order-1 lg:order-2 relative z-10 p-4 md:p-6 lg:p-8 xl:p-12 bg-gradient-to-l from-[#f7f3ed]/95 via-[#ede4d3]/90 to-transparent lg:bg-gradient-to-r lg:from-[#f7f3ed]/95 lg:via-[#ede4d3]/90 lg:to-transparent">
+                <div className="space-y-4 md:space-y-6 lg:space-y-8 text-center lg:text-left">
+                  <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-light text-[#8b6f47] leading-tight">
+                    Merecés un viaje de <span className="text-[#a0845c] font-normal">Relax.</span>
+                  </h1>
+                  <p className="text-[#8b6f47]/80 text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed">
+                    Cómodo departamento de <strong>2 ambientes</strong> ubicado en el corazón de la <em>“Ciudad Jardín”</em>. Totalmente equipado. Apto para que <strong>2 o 3 personas</strong> disfruten de la belleza y tranquilidad que ofrece Villa Elisa.
+                  </p>
 
-    <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 lg:gap-4 py-4">
-      {heroIcons.map((item, index) => {
-        const Icon = item.icon
-        return (
-          <button
-            key={index}
-            onClick={() => scrollToAmenity(item.label)}
-            className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-[#8b6f47]/10 rounded-full flex items-center justify-center hover:bg-[#8b6f47]/20 transition-all duration-300 hover:scale-110 cursor-pointer"
-          >
-            <Icon className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 text-[#8b6f47]" />
-          </button>
-        )
-      })}
-    </div>
-  </div>
-</div>
+                  <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 lg:gap-4 py-4">
+                    {heroIcons.map((item, index) => {
+                      const Icon = item.icon
+                      return (
+                        <button
+                          key={index}
+                          onClick={() => scrollToAmenity(item.label)}
+                          className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-[#8b6f47]/10 rounded-full flex items-center justify-center hover:bg-[#8b6f47]/20 transition-all duration-300 hover:scale-110 cursor-pointer"
+                        >
+                          <Icon className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 text-[#8b6f47]" />
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -186,40 +186,40 @@ export default function HomePage() {
             })}
           </div>
 
-<div className="text-center">
-  <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-xl border border-[#d4c4a8]/50">
-    <h2 className="text-xl md:text-2xl lg:text-3xl font-light text-[#8b6f47] mb-2 md:mb-3 lg:mb-4">
-      ¿Listo para tu escapada perfecta?
-    </h2>
+          <div className="text-center">
+            <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-xl border border-[#d4c4a8]/50">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-light text-[#8b6f47] mb-2 md:mb-3 lg:mb-4">
+                ¿Listo para tu escapada perfecta?
+              </h2>
 
-    <p className="text-[#8b6f47]/80 mb-3 md:mb-4 lg:mb-6 text-sm md:text-base lg:text-lg">
-      Descubrí todo lo que Villa Elisa tiene para ofrecerte.
-    </p>
+              <p className="text-[#8b6f47]/80 mb-3 md:mb-4 lg:mb-6 text-sm md:text-base lg:text-lg">
+                Descubrí todo lo que Villa Elisa tiene para ofrecerte.
+              </p>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
-      {[
-        { label: 'La Casita - Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
-        { label: 'Descubrí la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
-        { label: 'Atracciones Cercanas', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
-        { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }
-      ].map((item, index) => (
-        <Link key={index} href={item.href}>
-          <div
-            className="w-full text-center px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full"
-            style={{
-              backgroundColor: item.bg,
-              transition: 'background-color 0.3s',
-            }}
-            onMouseOver={e => e.currentTarget.style.backgroundColor = item.hover}
-            onMouseOut={e => e.currentTarget.style.backgroundColor = item.bg}
-          >
-            {item.label}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
+                {[
+                  { label: 'La Casita - Galeria', href: '/fotos', bg: '#8b6f47', hover: '#6d5635' },
+                  { label: 'Descubrí la Ciudad', href: '/la-ciudad', bg: '#a0845c', hover: '#8b6f47' },
+                  { label: 'Atracciones Cercanas', href: '/atracciones', bg: '#8b6f47', hover: '#6d5635' },
+                  { label: 'Contacto', href: '/contacto', bg: '#a0845c', hover: '#8b6f47' }
+                ].map((item, index) => (
+                  <Link key={index} href={item.href}>
+                    <div
+                      className="w-full text-center px-3 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 text-white text-xs md:text-sm lg:text-base cursor-pointer transition-all duration-300 hover:scale-105 rounded-full"
+                      style={{
+                        backgroundColor: item.bg,
+                        transition: 'background-color 0.3s',
+                      }}
+                      onMouseOver={e => (e.currentTarget.style.backgroundColor = item.hover)}
+                      onMouseOut={e => (e.currentTarget.style.backgroundColor = item.bg)}
+                    >
+                      {item.label}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
-        </Link>
-      ))}
-    </div>
-  </div>
-</div>
         </div>
       </section>
     </div>
